@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>স্বয়ংক্রিয় নিউজ পোর্টাল</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; background-color: #f0f2f5; color: #333; padding: 20px; }
+        .wrapper { max-width: 800px; margin: 0 auto; background: #ffffff; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        h1 { text-align: center; color: #007bff; margin-bottom: 20px; }
+        .ad-box { background: #f8f9fa; border: 2px dashed #cccccc; padding: 20px; text-align: center; color: #777; font-weight: bold; margin: 20px 0; border-radius: 8px; min-height: 100px; }
+        .news-section { margin-top: 20px; }
+        .news-card { background: #fafafa; border-left: 5px solid #007bff; padding: 15px; margin-bottom: 15px; border-radius: 4px; }
+        .news-card h3 a { text-decoration: none; color: #222; font-size: 18px; }
+        .news-card p { color: #555; font-size: 14px; margin-top: 5px; }
+        .time-stamp { text-align: right; font-size: 13px; color: #888; margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        <h1>আজকের তাজা খবর ও আপডেট</h1>
+
+        <!-- 🚀 ১ নম্বর গুগল অ্যাডসেন্স বিজ্ঞাপনের জায়গা (Top Banner) -->
+        <div class="ad-box">
+            <p>[ Google AdSense - Top Advertisement ]</p>
+        </div>
+
+        <!-- 📰 অটোমেটিক নিউজ আসার মেইন বক্স -->
+        <div class="news-section" id="news-container">
+            <!-- START_NEWS -->
+            <div class="news-card">
+                <h3>স্বাগতম!</h3>
+                <p>সাইটটি সফলভাবে তৈরি হয়েছে। রোবট স্ক্রিপ্ট রান হওয়ার পর এখানে অটোমেটিক লাইভ নিউজ চলে আসবে।</p>
+            </div>
+            <!-- END_NEWS -->
+        </div>
+
+        <!-- 🚀 ২ নম্বর গুগল অ্যাডসেন্স বিজ্ঞাপনের জায়গা (Bottom Banner) -->
+        <div class="ad-box">
+            <p>[ Google AdSense - Bottom Advertisement ]</p>
+        </div>
+
+        <div class="time-stamp">
+            সর্বশেষ আপডেট: <span id="last-updated">কখনো না</span>
+        </div>
+    </div>
+
+</body>
+</html>
